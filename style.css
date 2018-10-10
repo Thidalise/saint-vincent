@@ -1,0 +1,317 @@
+body{
+  background-color: rgb(255,250,226);
+  margin: 0;
+}
+
+/*Paramètres communs à toutes les pages : en-tête et barre de menu*/
+.boite{
+  background-color: rgb(245,236,206) ;
+  max-width: 1300px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+
+
+.entete {
+  text-align: center;
+  line-height: 1;
+  margin-bottom: 70px;
+}
+
+.titre {
+  font-family: 'Poppins', sans-serif;
+  font-size: 70px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: black;
+  text-decoration: none;
+}
+
+.soustitre {
+  font-family: 'Poppins', sans-serif;
+  font-size: 17px;
+  font-style: italic;
+ }
+
+.barre-menu {
+  max-width: 100%;
+  margin: 0 auto 50px auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  background-color: white;
+}
+
+.barre-menu-texte {
+  font-family: 'Poppins', sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  padding: 15px 35px 15px 35px;
+  text-decoration: none;
+  color: black;
+  background-color: white;
+}
+
+.menu-texte:hover{
+  text-decoration: underline;
+}
+
+/*Page d'accueil : menu avec les photos*/
+.menu-photo {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 100px;
+  max-width: 100%;
+}
+
+.case {
+  width: 350px;
+  height: 350px;
+  overflow: hidden;
+  background-color: white;
+  margin: 20px 20px 20px 20px;
+  position: relative;
+  border : 15px solid white;
+}
+
+.dezoomH {
+  max-height: 100%;
+  width: auto;
+  overflow: hidden;
+  position: relative;
+  float: right;
+}
+
+.dezoomH:hover{
+  max-width: 100%;
+  height: auto;
+  overflow: hidden;
+  border-bottom: solid 100px white;
+}
+
+.dezoomV {
+  max-width: 100%;
+  height:auto;
+  overflow: hidden;
+  position: relative;
+  float: right;
+}
+
+.dezoomV:hover{
+  max-height: 100%;
+  width: auto;
+  overflow: hidden;
+  border-left: solid 100px white;
+}
+
+/*Page d'informations : Présentation de l'établissemnt*/
+.case-presentation {
+  background-color: white;
+  max-width: 1200px;
+  display: block;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 25px ;
+}
+
+.H1{
+  font-family: 'Merriweather', serif;
+  font-size: 30px;
+  font-style:italic;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 100px;
+  text-decoration: underline;
+}
+
+.H1eng{
+  font-family: 'Merriweather', serif;
+  font-size: 20px;
+  font-style:italic;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 100px;
+  text-decoration: underline;
+}
+
+.div-image-page-info {
+  max-width: 1200px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.image-page-infoV {
+  position: relative;
+  height: 450px;
+  width: 350px;
+  overflow: hidden;
+  margin: 10px 10px 10px 10px;
+  border : 15px solid white;
+}
+
+.image-page-infoH {
+  position: relative;
+  width: 350px;
+  height: 100%;
+  overflow: hidden;
+  margin: 10px 10px 10px 10px;
+  border : 15px solid white;
+}
+
+.labeur {
+  font-family: 'Merriweather', serif;
+  font-size: 15px;
+  line-height: 1.5;
+  font-style: normal;
+  text-align: left;
+}
+
+.labeur-eng {
+  font-family: 'Merriweather', serif;
+  font-size: 15px;
+  line-height: 1.5;
+  font-style: italic;
+  text-align: left;
+}
+
+.presentation {
+  background-color: white;
+  max-width: 700px;
+  display: block;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 25px ;
+}
+
+/*Page d'informations : Contact*/
+.texte-contact {
+  background-color: white;
+  max-width: 700px;
+  font-family: 'Merriweather', serif;
+  font-size: 14px;
+  font-style: normal;
+  text-align: justify;
+  display: block;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 15px 15px 15px 15px ;
+}
+
+.texte-contact-eng {
+  background-color: white;
+  max-width: 700px;
+  font-family: 'Merriweather', serif;
+  font-size: 14px;
+  font-style: italic;
+  text-align: justify;
+  display: block;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 15px 15px 15px 15px ;
+}
+
+/*Page Galerie photos*/
+.div-image-galerie {
+  max-width: 1200px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.img-V {
+  position: relative;
+  width: auto;
+  max-height: 350px;
+  margin: 10px 10px 10px 10px;
+  border : 15px solid white;
+}
+
+.img-H {
+  position: relative;
+  width: auto;
+  max-height: 350px;
+  margin: 10px 10px 10px 10px;
+  border : 15px solid white;
+}
+
+/*Commun à toutes les pages : footer*/
+.footer {
+  max-width: 700px;
+  margin: 65px auto 10px auto ;
+}
+.legende-footer {
+  font-family: 'Merriweather', serif;
+  font-size: 15px;
+  font-style: italic;
+  text-align: center;
+}
+
+/* Ce qui suit concerne l'animation en J-query de la page d'acceuil */
+.case-au-survol {
+	width:350px;
+	height:400px;
+	background:#000;
+	color:#fff;
+	font-weight:bold;
+	/* fix it at the bottom */
+	position:absolute;
+	left:0;
+	/* hide it by default */
+	display:none;
+	/* opacity setting */
+	filter:alpha(opacity=70);    /* ie  */
+	-moz-opacity:0.7;    /* old mozilla browser like netscape  */
+	-khtml-opacity: 0.7;    /* for really really old safari */
+	opacity: 0.7;    /* css standard, currently it works in most modern browsers like firefox,  */
+
+}
+
+.titre-au-survol {
+	text-decoration:none;
+	color:blue;
+	font-size:50px;
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+
+	/* add spacing and make the whole row clickable*/
+	padding-top:50px;
+  margin:auto;
+	display:block;
+}
+
+.texte-au-survol  {
+	padding:5px;
+	margin:0;
+	font-size:20px;
+  font-family:  'Poppins', sans-serif;
+  text-align: center;
+  text-decoration: none;
+}
+
+img {
+	border:0;
+}
+
+.clear {
+	clear:both;
+}

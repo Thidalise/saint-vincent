@@ -13,9 +13,10 @@
 <div class="boite">
 
 <!--en-tête-->
-  <div class="entete">
+  <div class="entete" id="retour-en-haut">
     <a href="index.html" class="titre">Le Saint-Vincent</a>
     <p class="soustitre">Établissement d'hébergement dans le centre historique de Foix</p>
+    <p class="tel">05.34.09.28.00</p>
   </div>
 
 <!--barre de menu-->
@@ -27,17 +28,29 @@
   <a href="galerie.html" class="barre-menu-texte">Galerie</a>
 </div>
 
-<!--Présentation de l'établissement : ancre présentation-->
+</div>
+
+<!--Flèche de renvoie en haut de page-->
+ <div class="fleche">
+      <a href="info.html#retour-en-haut"> <img src="./images/fleche.png" alt="flèche retour en haut de la page"> </a>
+    </div>
+
+<!-- Page informative-->
 <div class="case-presentation">
 
-<!--IMAGES-->
-<div class="div-image-page-info">
-  <img class="image-page-infoV" src="./images/chamb3.jpg" alt="image d'une chambre">
-  <img class="image-page-infoV" src="./images/sb2.jpg" alt="image d'une chambre">
-  <img class="image-page-infoV" src="./images/chamb5.jpg" alt="image d'une chambre">
-</div>
+
+<!--Présentation de l'établissement : ancre présentation-->
+<div class="case-presentation" id="presentation">
+
+  <!--IMAGES-->
+  <div class="div-image-page-info" >
+    <img class="image-page-info" src="./images/chamb3V.jpg" alt="image d'une chambre">
+    <img class="image-page-info" src="./images/sb2V.jpg" alt="image d'une chambre">
+    <img class="image-page-info" src="./images/chamb5V.jpg" alt="image d'une chambre">
+  </div>
+
 <!--TITRE-->
-<p class="H1" id="presentation">Présentation de l'établissement</p>
+<p class="H1" >Présentation de l'établissement</p>
 
 <!--TEXTE-->
   <div class="presentation">
@@ -53,67 +66,136 @@
     <p class="H1eng">Presentation of the establishment</p>
     <p class="labeur-eng">
       Le Saint-Vincent is an accommodation establishment managed by Hôtel Restaurant Lons.</p>
-      <p class="labeur-eng"> Located in the centre of Foix, a stone's throw from the castle and shops, the Saint-Vincent offers "room + breakfast buffet" packages starting at 75€.</p>
+      <p class="labeur-eng"> Located in the center of Foix, a stone's throw from the castle and shops, the Saint-Vincent offers "room + breakfast buffet" packages starting at 75€.</p>
       <p class="labeur-eng">Breakfasts are offered in the Hotel Restaurant Lons.</p>
       <p class="labeur-eng">For more information, do not hesitate to contact the reception of Le Lons, who will be happy to answer your questions and requests concerning the Saint-Vincent. </p>
       <p class="labeur-eng">See you soon!</p>
       <p class="labeur-eng">The team of the Saint-Vincent.</p>
     </div>
+
 </div>
 
-
-
 <!--Détail des tarifs des chambres : ancre tarif-->
-<div class="case-presentation">
+<div class="case-presentation" id="tarifs">
 
 <!--IMAGES-->
 <div class="div-image-page-info">
-  <img class="image-page-infoH" src="./images/cham2.jpg" alt="image d'une chambre">
-  <img class="image-page-infoH" src="./images/chamb7.jpg" alt="image d'une chambre">
-  <img class="image-page-infoH" src="./images/chambrerouge.jpg" alt="image d'une chambre">
+  <img class="image-page-info" src="./images/cham2V.jpg" alt="image d'une chambre">
+  <img class="image-page-info" src="./images/sb1V.jpg" alt="image d'une salle de bain">
+  <img class="image-page-info" src="./images/chambrerougeV.jpg" alt="image d'une chambre">
 </div>
-<!--TITRE-->
-<p class="H1" id="tarifs">Les tarifs</p>
 
-<!--TEXTE-->
+<!--TITRE-->
+<p class="H1" >Les tarifs</p>
+
+<!--TAbleau de présentation des tarifs-->
   <div class="presentation">
-  <p class="labeur">
-  Le Saint-vincent est un établissement d'hébergement géré par l'Hôtel Restaurant Lons.</p>
+  <table>
+    <tr>
+      <th></th>
+      <th><p class="soustitretableau">Haute saison</p>  <p class="legendetableau">du 29 Avril au 29 Septembre</p></th>
+      <th><p class="soustitretableau">Basse Saison</p> <p class="legendetableau"> du 4 Février au 28 Avril</p> <p class="legendetableau">du 30 Septembre au 31 Décembre</p> </th>
+    </tr>
+
+    <tr>
+      <th rowspan="2"><p class="labeurtableau">Chambre lit double </p></th>
+      <td><p class="labeurtableau">1 personne : 66,50€</p></td>
+      <td><p class="labeurtableau">79,00€</p></td>
+    </tr>
+
+    <tr>
+      <td><p class="labeurtableau">2 personnes : 77,00€</p></td>
+      <td><p class="labeurtableau">89,00€</p></td>
+    </tr>
+
+    <tr>
+      <th> <p class="labeurtableau">Chambre deux lits</p> </th>
+      <td><p class="labeurtableau">87,00€</p></td>
+      <td><p class="labeurtableau">99,00€</p></td>
+    </tr>
+
+    <tr>
+      <th> <p class="labeurtableau">Chambre familiale</p> </th>
+      <td><p class="labeurtableau">3 personnes : 103,40€</p></td>
+      <td><p class="labeurtableau">122,30€</p></td>
+    </tr>
+
+    <tr>
+      <td colspan="3" class="legendetableau">Les tarifs comprennent le prix de la chambre et des petit-déjeuners-buffet. <br> Le prix n'inclut pas la taxe de séjour : 0,88€ par adulte et par nuit. </td>
+    </tr>
+  </table>
 
 
   <p class="H1eng">Prices</p>
-    <p class="labeur-eng">
-      Le Saint-Vincent is an accommodation establishment managed by Hôtel Restaurant Lons.</p>
+  <table>
+    <tr>
+      <th></th>
+      <th><p class="soustitretableau">High Season</p>  <p class="legendetableau">from 29th of April to 29th of September</p></th>
+      <th><p class="soustitretableau">Low Season</p> <p class="legendetableau">from 4th of February to 28th of April</p> <p class="legendetableau">from 30th of September to 31st of September</p> </th>
+    </tr>
+
+    <tr>
+      <th rowspan="2"><p class="labeurtableau">Double bed room</p></th>
+      <td><p class="labeurtableau">1 person : 66,50€</p></td>
+      <td><p class="labeurtableau">79,00€</p></td>
+    </tr>
+
+    <tr>
+      <td><p class="labeurtableau">2 people : 77,00€</p></td>
+      <td><p class="labeurtableau">89,00€</p></td>
+    </tr>
+
+    <tr>
+      <th> <p class="labeurtableau">Two beds room</p> </th>
+      <td><p class="labeurtableau">87,00€</p></td>
+      <td><p class="labeurtableau">99,00€</p></td>
+    </tr>
+
+    <tr>
+      <th> <p class="labeurtableau">Family room</p> </th>
+      <td><p class="labeurtableau">3 people : 103,40€</p></td>
+      <td><p class="labeurtableau">122,30€</p></td>
+    </tr>
+
+    <tr>
+      <td colspan="3" class="legendetableau">The price includes the price of the room and the buffet-breakfast. <br> The price do not include the city tax : 0,88€ for each adult per night. </td>
+
+    </tr>
+  </table>
     </div>
 </div>
 
 
 <!--Détail des contacts : ancre contact-->
-<div class="case-presentation">
+<div class="case-presentation" id="contact">
 
 <!--IMAGES-->
 <div class="div-image-page-info">
-  <img class="image-page-infoH" src="./images/cham2.jpg" alt="image d'une chambre">
-  <img class="image-page-infoH" src="./images/chamb7.jpg" alt="image d'une chambre">
-  <img class="image-page-infoH" src="./images/chambrerouge.jpg" alt="image d'une chambre">
+  <img class="image-page-info" src="./images/vitrail.jpg" alt="image d'un vitrail">
+  <img class="image-page-info" src="./images/cham1.jpg" alt="image d'une chambre">
+  <img class="image-page-info" src="./images/siege.jpg" alt="image d'un siege">
 </div>
 <!--TITRE-->
-<p class="H1" id="contact">Nous contacter</p>
+<p class="H1" >Nous contacter</p>
+
+<div class="carte">
+<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2919.609122152116!2d1.604586!3d42.9654409!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12af11261161fcf9%3A0x6c2c2f8415cee024!2s1+Rue+Saint-Vincent%2C+09000+Foix!5e0!3m2!1sfr!2sfr!4v1565817370813!5m2!1sfr!2sfr" width="700" height="400" frameborder="0" style="border:0" allowfullscreen></iframe>
+</div>
 
 <!--TEXTE-->
   <div class="presentation">
   <p class="labeur">
   Merci de contacter la réception de l'Hôtel Restaurant Lons pour plus d'informations</p>
-  <p class="labeur">05.34.09.28.00</p>
-  <p class="labeur">hotel-lons-foix@wanadoo.fr</p>
-  <p class="labeur">Vous pouvez aussi réserver en ligne sur Booking.com</p>
+  <p class="labeur-bold">05.34.09.28.00</p>
+  <a href="mailto:hotel-lons-foix@wanadoo.fr" class="mail"><p class="labeur-bold">hotel-lons-foix@wanadoo.fr</p></a>
 
   <p class="H1eng">Contact us</p>
     <p class="labeur-eng">Thank you to contact the Hotel Restaurant Lons for more informations</p>
-    <p class="labeur-eng">05.34.09.28.00</p>
-    <p class="labeur-eng">hotel-lons-foix@wanadoo.fr</p>
-    <p class="labeur-eng">You can also order online in Booking.com</p>
+    <p class="labeur-eng-bold">05.34.09.28.00</p>
+    <a href="mailto:hotel-lons-foix@wanadoo.fr" class="mail"><p class="labeur-eng-bold">hotel-lons-foix@wanadoo.fr</p></a>
     </div>
+</div>
+
 </div>
 
 <!--footer-->
@@ -122,8 +204,8 @@
   Établissement d'hébergement géré par l'Hôtel Restaurant Lons <br>
   1 rue Saint-Vincent -  09 000 Foix</p>
   <p class="legende-footer">05.34.09.28.00</p>
-  <p class="legende-footer">hotel-lons-foix@wanadoo.fr</p>
+  <a href="mailto:hotel-lons-foix@wanadoo.fr" class="mail"><p class="legende-footer">hotel-lons-foix@wanadoo.fr</p></a>
 </div>
-</div>
+
   </body>
 </html>
